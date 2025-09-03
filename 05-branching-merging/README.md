@@ -9,9 +9,7 @@ This folder contains practice for working with branches and merging in Git.
 - `git checkout <name>` OR `git switch <name>` - Switches the branches
 - `git checkout -b <name>` - Creates and switches the branch simultaneously
 - `git merge <branch>` - Merges the branch into current branch
-- `git merge --abord` - Cancels the merge
 - `git branch -D <name>` - Deletes the branch locally
-- `git push origin --delete <name>` - Delete the branch remotely
 - `git rebase main` - Rebase branch onto main
 
 ## Tasks and Output:
