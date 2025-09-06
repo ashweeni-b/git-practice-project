@@ -10,17 +10,17 @@ A structured practice project to learn and demonstrate Git workflows - from basi
 
 ### Folder Structure
 
-git-practice-project
-│_ 01-basics
-│_ 02-history
-│_ 03-undoing-changes
-│_ 04-remote
-│_ 05-branching-merging
-│_ 06-collaboration
-│_ 07-advanced
-│_ CONTRIBUTING.md
-│_ CODE_OF_CONDUCT.md
-│_ LICENSE
+git-practice-project <br>
+│_ 01-basics <br>
+│_ 02-history <br>
+│_ 03-undoing-changes <br>
+│_ 04-remote <br>
+│_ 05-branching-merging <br>
+│_ 06-collaboration <br>
+│_ 07-advanced <br>
+│_ CONTRIBUTING.md <br>
+│_ CODE_OF_CONDUCT.md <br>
+│_ LICENSE <br>
 │_ README.md
 
 ### Topics Covered
