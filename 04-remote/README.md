@@ -16,71 +16,47 @@ This folder contains practice for working with remote repositories in Git. The g
 ## Tasks and Output:
 
 <ol>
-<li> Create demo.txt file </li>
-![Created demo.txt](<created demo.txt in remote.png>)
+<li> Create demo.txt file </li> <br>
+<img alt="Created demo.txt" src="/04-remote/screenshots/created demo.txt in remote.png"> <br> <br>
 
-<br>
+<li> Stage and commit demo.txt file </li> <br>
+<img alt="Added demo.txt" src="/04-remote/screenshots/added demo.txt.png"> <br> 
+<img alt="Committed demo.txt" src="/04-remote/screenshots/committed demo.txt.png"> <br> <br>
 
-<li> Stage and commit demo.txt file </li>
-![Added demo.txt](<added demo.txt.png>)
-![Committed demo.txt](<committed demo.txt.png>)
+<li> Add a remote repo and verify it </li> <br>
+<img alt="Connected to remote repo" src="/04-remote/screenshots/connected to remote repo and verified it.png"> <br> <br>
 
-<br>
+<li> Push the commits to remote repo </li> <br>
+<img alt="Pushed the commits to remote repo" src="/04-remote/screenshots/pushed the commits to remote.png"> <br> <br>
 
-<li> Add a remote repo and verify it </li>
-![Connected to remote repo](<connected to remote repo and verified it.png>)
+<li> Modify demo.txt file and commit it </li> <br>
+<img alt="Modified and committed demo.txt" src="/04-remote/screenshots/modified and committed demo.txt.png"> <br> <br>
 
-<br>
+<li> Push the modifications to remote repo </li> <br>
+<img alt="Pushed the modification of demo.txt" src="/04-remote/screenshots/pushed the modifications of demo.txt.png"> <br> <br>
 
-<li> Push the commits to remote repo </li>
-![Pushed the commits to remote repo](<pushed the commits to remote.png>)
+<li> Clone another remote repo locally </li> <br>
+<img alt="Cloned remote repo" src="/04-remote/screenshots/cloned another repo.png"> <br> <br>
 
-<br>
+<li> Commit some changes directly from GitHub i.e. remotely </li> <br>
+<img alt="Committed changes to GitHub" src="/04-remote/screenshots/comitted changes to github.png"> <br> <br>
 
-<li> Modify demo.txt file and commit it </li>
-![Modified and committed demo.txt](<modified and committed demo.txt.png>)
+<li> Check commit history </li> <br>
+<img alt="Commit history before fetching" src="/04-remote/screenshots/commit history before fetching.png"> <br> <br>
 
-<br>
+<li> Fetch the changes made through GitHub </li> <br>
+<img alt="Fetched the changes" src="/04-remote/screenshots/fetched the changes made.png"> <br> <br>
 
-<li> Push the modifications to remote repo </li>
-![Pushed the modification of demo.txt](<pushed the modifications of demo.txt.png>)
+<li> Check commit history after fetching the changes </li> <br>
+<img alt="Commit history after fetching" src="/04-remote/screenshots/commit history after fetching.png"> <br> <br>
 
-<br>
+<li> Pull the changes made through GitHub </li> <br>
+<img alt="Pulled the changes" src="/04-remote/screenshots/pulled the changes.png"> <br> <br>
 
-<li> Clone another remote repo locally </li>
-![Cloned remote repo](<cloned another repo.png>)
+<li> Check commit history after pulling the changes </li> <br>
+<img alt="Commit history after pulling" src="/04-remote/screenshots/commit history after pulling.png"> <br> <br>
 
-<br>
+<li> Check remote repo details </li> <br>
+<img alt="Remote repo details" src="/04-remote/screenshots/git remote show orgin.png"> <br> <br>
 
-<li> Commit some changes directly from GitHub i.e. remotely </li>
-![Committed changes to GitHub](<comitted changes to github.png>)
-
-<br>
-
-<li> Check commit history </li>
-![Commit history before fetching](<commit history before fetching.png>)
-
-<br>
-
-<li> Fetch the changes made through GitHub </li>
-![Fetched the changes](<fetched the changes made.png>)
-
-<br>
-
-<li> Check commit history after fetching the changes </li>
-![Commit history after fetching](<commit history after fetching.png>)
-
-<br>
-
-<li> Pull the changes made through GitHub </li>
-![Pulled the changes](<pulled the changes.png>)
-
-<br>
-
-<li> Check commit history after pulling the changes </li>
-![Commit history after pulling](<commit history after pulling.png>)
-
-<br>
-
-<li> Check remote repo details </li>
-![Remote repo details](<git remote show orgin.png>)
+</ol>
