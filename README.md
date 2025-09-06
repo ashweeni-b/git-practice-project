@@ -37,7 +37,7 @@ ____
 * Working with remote (push, pull, fetch, clone)
 * Branching & merging
 * Collaboration workflows (fork, clone, PRs, reviews)
-* Advanced Git (stash, cherry-pick, rebase, tags, etc.)
+* Advanced Git (stash, cherry-pick, rebase, tags)
 
 ____
 
