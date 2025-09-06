@@ -85,10 +85,10 @@ This folder covers advanced Git commands that are often used in real-world scena
 <li> Check commit history </li> <br>
 <img alt="Checked commit history after cherry pick" src="/07-advanced/screenshots/commit history after cherry pick.png"> <br> <br>
 
-<li> Create a version tag </li> <br>
-<img alt="" src="/07-advanced/"> <br> <br>
+<li> Create and push the version tag </li> <br>
+<img alt="Set the tag" src="/07-advanced/screenshots/set the tag.png"> <br> <br>
 
-<li> Push the tag </li> <br>
-<img alt="" src="/07-advanced/"> <br> <br>
+<li> See the tag on GitHub </li> <br>
+<img alt="See the tag on GitHub" src="/07-advanced/screenshots/github tag.png"> <br> <br>
 
 </ol>
