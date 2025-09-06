@@ -14,138 +14,88 @@ This folder covers <b> fixing mistakes in Git </b>. Undoing changes is critical 
 ## Tasks and Output:
 
 <ol>
-<li> Check status and history </li>
-![Checked history and status](<checked history and status before creating demo.txt.png>)
+<li> Check status and history </li> <br> 
+<img alt="Checked history and status" src="/03-undoing-changes/screenshots/checked history and status before creating demo.txt.png"> <br> <br>
+
+<li> Create demo.txt file </li> <br> 
+<img alt="Created demo.txt" src="/03-undoing-changes/screenshots/created demo.txt file.png"> <br> <br>
+
+<li> Stage and commit demo.txt file </li> <br> 
+<img alt="Staged and committed demo.txt" src="/03-undoing-changes/screenshots/staged and commited demo.txt file.png"> <br> <br>
+
+<li> View commit history </li> <br> 
+<img alt="Checked commit history" src="/03-undoing-changes/screenshots/checked commit history.png"> <br> <br>
+
+<li> Modify demo.txt by adding a new line </li> <br> 
+<img alt="Modified demo.txt" src="/03-undoing-changes/screenshots/modified demo.txt file.png"> <br> <br>
+
+<li> Stage and commit demo.txt file after modification </li> <br> 
+<img alt="Staged demo.txt" src="/03-undoing-changes/screenshots/added modified demo.txt file.png"> <br>
+<img alt="Committed demo.txt" src="/03-undoing-changes/screenshots/committed modified demo.txt.png"> <br> <br>
+
+<li> Check commit history and status after committing </li> <br> 
+<img alt="Checked status before undoing" src="/03-undoing-changes/screenshots/checked status after modifying demo.txt.png"> <br> <br>
+
+<li> Undo the commit by using git reset --soft and check the status</li> <br> 
+<img alt="Undo the commit and checked status" src="/03-undoing-changes/screenshots/undo using git reset soft.png"> <br> <br>
+
+<li> Commit the changes after resetting with soft flag </li> <br> 
+<img alt="Committed changes after resetting using soft" src="/03-undoing-changes/screenshots/committed changes after git reset soft.png"> <br> <br>
+
+<li> Check commit history and status before undo mixed </li> <br> 
+<img alt="Checked status before git reset mixed" src="/03-undoing-changes/screenshots/checked commit history and status before git reset mixed.png"> <br> <br>
+
+<li> Undo the changes by using git reset --mixed </li> <br> 
+<img alt="Undo changes using git reset mixed" src="/03-undoing-changes/screenshots/undo changes using git reset mixed.png"> <br> <br>
+
+<li> Check commit history and status after undo mixed </li> <br> 
+<img alt="Checked status after git reset mixed" src="/03-undoing-changes/screenshots/checked status after git reset mixed.png"> <br> <br>
+
+<li> Commit the changes after resetting with mixed flag </li> <br> 
+<img alt="Committed changes after resetting using mixed" src="/03-undoing-changes/screenshots/committed changes after git reset mixed.png"> <br> <br>
+
+<li> Undo the changes by using git reset --hard </li> <br> 
+<img alt="Undo changes using git reset hard" src="/03-undoing-changes/screenshots/undo using git reset hard.png"> <br> <br>
+
+<li> Check commit history and status after undo hard </li> <br> 
+<img alt="Checked status after git reset hard" src="/03-undoing-changes/screenshots/checked status after git reset hard.png"> <br> <br>
+
+<li> Modify demo.txt to add a new line </li> <br> 
+<img alt="Modified demo.txt" src="/03-undoing-changes/screenshots/modified demo.txt with a new line.png"> <br> <br>
+
+<li> Stage and commit the modifications </li> <br> 
+<img alt="Staged and committed the modifications" src="/03-undoing-changes/screenshots/staged and committed the modifications.png"> <br> <br>
+
+<li> Revert the modifications done </li> <br> 
+<img alt="Reverted the modifications" src="/03-undoing-changes/screenshots/revertted the modifications.png"> <br> <br>
+
+<li> Check commit history after reverting the modifications </li> <br> 
+<img alt="Checked history after reverting the modifications" src="/03-undoing-changes/screenshots/checked the history after reverting.png"> <br> <br>
+
+<li> Create a new file temp.txt </li> <br> 
+<img alt="Created temp.txt" src="/03-undoing-changes/screenshots/created temp.txt.png"> <br> <br>
+
+<li> Stage and commit the changes </li> <br> 
+<img alt="Staged and committed temp.txt" src="/03-undoing-changes/screenshots/added and committed temp.txt.png"> <br> <br>
+
+<li> Modify the temp.txt by adding new line and check the status </li> <br> 
+<img alt="Modified and checked status" src="/03-undoing-changes/screenshots/modify and check status.png"> <br> <br>
+
+<li> Discard the modifications by using git checkout and check the status </li> <br> 
+<img alt="Discarded the modifications and checked status" src="/03-undoing-changes/screenshots/git checkout and status.png"> <br> <br>
+
+<li> Again modify temp.txt by adding new line and check the status </li> <br> 
+<img alt="Modified again and checked status" src="/03-undoing-changes/screenshots/again modify and check status.png"> <br> <br>
+
+<li> Discard the modifications by using git restore and check the status </li> <br> 
+<img alt="Discarded and check status" src="/03-undoing-changes/screenshots/git restore and status.png"> <br> <br>
 
 <br>
 
-<li> Create demo.txt file </li>
-![Created demo.txt](<created demo.txt file.png>)
+<li> Setup untracked files and folders and check the directory </li> <br> 
+<img alt="Setup the files and folders" src="/03-undoing-changes/screenshots/setup the clear directory.png"> <br> <br>
 
-<br>
+<li> Clean untracked files and folders and check the directory </li> <br> 
+<img alt="Cleaned untracked files" src="/03-undoing-changes/screenshots/clear untracked files and check the directoy.png"> <br> <br>
 
-<li> Stage and commit demo.txt file </li>
-![Staged and committed demo.txt](<staged and commited demo.txt file.png>)
-
-<br>
-
-<li> View commit history </li>
-![Checked commit history](<checked commit history.png>)
-
-<br>
-
-<li> Modify demo.txt by adding a new line </li>
-![Modified demo.txt](<modified demo.txt file.png>)
-
-<br>
-
-<li> Stage and commit demo.txt file after modification </li>
-![Staged demo.txt](<added modified demo.txt file.png>)
-![Committed demo.txt](<committed modified demo.txt.png>)
-
-<br>
-
-<li> Check commit history and status after committing </li>
-![Checked status before undoing](<checked status after modifying demo.txt.png>)
-
-<br>
-
-<li> Undo the commit by using git reset --soft and check the status</li>
-![Undo the commit and checked status](<undo using git reset soft.png>)
-
-<br>
-
-<li> Commit the changes after resetting with soft flag </li>
-![Committed changes after resetting using soft](<committed changes after git reset soft.png>)
-
-<br>
-
-<li> Check commit history and status before undo mixed </li>
-![Checked status before git reset mixed](<checked commit history and status before git reset mixed.png>)
-
-<br>
-
-<li> Undo the changes by using git reset --mixed </li>
-![Undo changes using git reset mixed](<undo changes using git reset mixed.png>)
-
-<br>
-
-<li> Check commit history and status after undo mixed </li>
-![Checked status after git reset mixed](<checked status after git reset mixed.png>)
-
-<br>
-
-<li> Commit the changes after resetting with mixed flag </li>
-![Committed changes after resetting using mixed](<committed changes after git reset mixed.png>)
-
-<br>
-
-<li> Undo the changes by using git reset --hard </li>
-![Undo changes using git reset hard](<undo using git reset hard.png>)
-
-<br>
-
-<li> Check commit history and status after undo hard </li>
-![Checked status after git reset hard](<checked status after git reset hard.png>)
-
-<br>
-
-<li> Modify demo.txt to add a new line </li>
-![Modified demo.txt](<modified demo.txt with a new line.png>)
-
-<br>
-
-<li> Stage and commit the modifications </li>
-![Staged and committed the modifications](<staged and committed the modifications.png>)
-
-<br>
-
-<li> Revert the modifications done </li>
-![Reverted the modifications](<revertted the modifications.png>)
-
-<br>
-
-<li> Check commit history after reverting the modifications </li>
-![Checked history after reverting the modifications](<checked the history after reverting.png>)
-
-<br>
-
-<li> Create a new file temp.txt </li>
-![Created temp.txt](<created temp.txt.png>)
-
-<br>
-
-<li> Stage and commit the changes </li>
-![Staged and committed temp.txt](<added and committed temp.txt.png>)
-
-<br> 
-
-<li> Modify the temp.txt by adding new line and check the status </li>
-![Modified and checked status](<modify and check status.png>)
-
-<br>
-
-<li> Discard the modifications by using git checkout and check the status </li>
-![Discarded the modifications and checked status](<git checkout and status.png>)
-
-<br>
-
-<li> Again modify temp.txt by adding new line and check the status </li>
-![Modified again and checked status](<again modify and check status.png>)
-
-<br>
-
-<li> Discard the modifications by using git restore and check the status </li>
-![Discarded and check status](<git restore and status.png>)
-
-<br>
-
-<li> Setup untracked files and folders and check the directory </li>
-![Setup the files and folders](<setup the clear directory.png>)
-
-<br>
-
-<li> Clean untracked files and folders and check the directory </li>
-![Cleaned untracked files](<clear untracked files and check the directoy.png>)
-
-<br>
+</ol>
