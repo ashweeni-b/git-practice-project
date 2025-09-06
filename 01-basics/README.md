@@ -17,74 +17,46 @@ This folder contains hands-on Git basics.
 ## Tasks and Output:
 
 <ol>
-<li> Initialize a repository </li>
-![Git Initialization](screenshots/git init.png)
+<li> Initialize a repository </li> <br>
+<img alt="Git Initialization" src="/01-basics/screenshots/git init.png"> <br> <br>
 
-<br>
+<li> Check current status of repo </li> <br>
+<img alt="Git Status" src="/01-basics/screenshots/git status.png"> <br> <br>
 
-<li> Check current status of repo </li>
-![Git Status](screenshots/git status.png)
+<li> Create a file named hello.txt </li> <br>
+<img alt="Created hello.txt" src="/01-basics/screenshots/created hello.txt.png"> <br> <br>
 
-<br>
+<li> Add the content "Hello Git." to hello.txt </li> <br>
+<img alt="Add content" src="/01-basics/screenshots/added contents to hello.txt.png"> <br> <br>
 
-<li> Create a file named hello.txt </li>
-![Created hello.txt](screenshots/created hello.txt.png)
+<li> Add hello.txt to staging area </li> <br>
+<img alt="Added hello.txt" src="/01-basics/screenshots/basics - git add.png"> <br> <br>
 
-<br>
+<li> Commit staged changes with message </li> <br>
+<img alt="Committed the changes" src="/01-basics/screenshots/basics - git commit.png"> <br> <br>
 
-<li> Add the content "Hello Git." to hello.txt </li>
-![Add content](screenshots/added contents to hello.txt.png)
+<li> View commit history </li> <br>
+<img alt="Commit history" src="/01-basics/screenshots/git log.png"> <br> <br>
 
-<br>
+<li> Modify hello.txt with a text </li> <br>
+<img alt="Modify hello.txt" src="/01-basics/screenshots/modified hello.txt.png"> <br> <br>
 
-<li> Add hello.txt to staging area </li>
-![Added hello.txt](screenshots/basics - git add.png)
+<li> See changes made to files </li> <br>
+<img alt="See changes" src="/01-basics/screenshots/git diff.png"> <br> <br>
 
-<br>
+<li> Create a temp.txt file </li> <br>
+<img alt="Created temp.txt" src="/01-basics/screenshots/git mv - created temp.txt.png"> <br> <br>
 
-<li> Commit staged changes with message </li>
-![Committed the changes](screenshots/basics - git commit.png)
+<li> Add the content "Temporary file" in temp.txt </li> <br>
+<img alt="Added content to temp.txt" src="/01-basics/screenshots/added content to temp.txt.png"> <br> <br>
 
-<br>
+<li> Add and commit temp.txt </li> <br>
+<img alt="Added and committed temp.txt" src="/01-basics/screenshots/git mv - add commit temp.txt.png"> <br> <br>
 
-<li> View commit history </li>
-![Commit history](screenshots/git log.png)
+<li> Rename temp.txt with renamed.txt </li> <br>
+<img alt="Renamed temp.txt" src="/01-basics/screenshots/git mv - renamed temp.txt.png"> <br> <br>
 
-<br>
-
-<li> Modify hello.txt with a text </li>
-![Modify hello.txt](screenshots/modified hello.txt.png)
-
-<br>
-
-<li> See changes made to files </li>
-![See changes](screenshots/git diff.png)
-
-<br>
-
-<li> Create a temp.txt file </li>
-![Created temp.txt](screenshots/git mv - created temp.txt.png)
-
-<br>
-
-<li> Add the content "Temporary file" in temp.txt </li>
-![Added content to temp.txt](screenshots/added content to temp.txt.png)
-
-<br>
-
-<li> Add and commit temp.txt </li>
-![Added and committed temp.txt](screenshots/git mv - add commit temp.txt.png)
-
-<br>
-
-<li> Rename temp.txt with renamed.txt </li>
-![Renamed temp.txt](screenshots/git mv - renamed temp.txt.png)
-
-<br>
-
-<li> Remove temp.txt </li>
-![alt text](screenshots/git rm - removed a file.png)
-
-<br>
+<li> Remove temp.txt </li> <br>
+<img alt="Removed temp.txt" src="/01-basics/screenshots/git rm - removed a file.png"> <br> <br>
 
 </ol>
