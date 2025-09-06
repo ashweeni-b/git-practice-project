@@ -2,13 +2,17 @@
 
 A structured practice project to learn and demonstrate Git workflows - from basics to advanced.
 
-### Why this Project?
+____
+
+### 💡 Why this Project?
 
 - This project is designed to learn, practice and revise Git systematically. <br>
 - It covers real-world Git workflows like branching, merging, undoing changes, collaboration, and advanced commands. <br>
 - The goal is to build hands-on Git experience that's directly useful in team projects and interviews.
 
-### Folder Structure
+____
+
+### 📂 Folder Structure
 
 git-practice-project <br>
 │_ 01-basics <br>
@@ -23,7 +27,9 @@ git-practice-project <br>
 │_ LICENSE <br>
 │_ README.md
 
-### Topics Covered
+____
+
+### 🛠️ Topics Covered
 
 * Git basics (init, config, add, commit, log)
 * Navigating history
@@ -33,7 +39,9 @@ git-practice-project <br>
 * Collaboration workflows (fork, clone, PRs, reviews)
 * Advanced Git (stash, cherry-pick, rebase, tags, etc.)
 
-### How to Use this Repo
+____
+
+### 🧑‍💻 How to Use this Repo
 
 1. Clone the repo in your local system using,
 <code> git clone https://github.com/ashweeni-b/git-practice-project.git </code>
@@ -41,15 +49,17 @@ git-practice-project <br>
 2. Navigate into a folder (01-basics, 02-history, etc.)
 3. Each folder has its own README.md with commands, tasks and outputs of the tasks.
 
-### Demo
-![Project_Home_Page](image.png)
-![01-basics folder](image-1.png)
+____
 
-### Contributing
+### 🤝 Contributing
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-### Code of Conduct
+____
+
+### 📜 Code of Conduct
 See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 
-### License
+____
+
+### 📄 License
 This project is licensed under the MIT Licnese - see the [LICENSE](./LICENSE) file for details.
